@@ -1,3 +1,7 @@
+# Open the results.docx 
+# this document shows how the database is created and some of the database resutls that were gathered
+
+
 # Findings
 
 This folder contains our findings from this database project.
