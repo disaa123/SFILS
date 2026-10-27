@@ -148,3 +148,10 @@ ALTER TABLE patrons
 ADD CONSTRAINT fk_notification
 FOREIGN KEY (notification_code)
 REFERENCES notification_types(notification_code);
+
+SELECT
+    age_range,
+    COUNT(*) AS total_patrons
+FROM patrons
+GROUP BY age_range
+ORDER BY total_patrons DESC;
